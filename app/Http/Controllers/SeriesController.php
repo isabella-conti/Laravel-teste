@@ -18,7 +18,6 @@ class SeriesController
         }
         $html .= '</ul>';
 
-        echo $html
-
+        echo $html;
     }
 }
