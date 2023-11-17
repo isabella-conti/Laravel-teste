@@ -15,10 +15,7 @@ class SeriesController extends Controller
             'Gambito da Rainha'
         ];
 
-        return view('listar-series', [
-            'series' => $series
-
-        ]);
+        return view('listar-series', compact('series'));
     }
 }
 
