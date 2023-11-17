@@ -3,5 +3,7 @@
     @foreach ($series as $serie)
     <li>{{ $serie }}</li>
     @endforeach
-    </ul>    
+    </ul>  
+    
+    
 </x-layout>
