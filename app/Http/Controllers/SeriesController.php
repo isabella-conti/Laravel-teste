@@ -9,17 +9,16 @@ class SeriesController extends Controller
     public function index(Request $request)
     {
         $series = [
-            'How I met your Mother',
-            'One Piece',
-            'Desencanto',
-            'Gambito da Rainha'
+            'Punisher',
+            'Lost',
+            'Grey\'s Anatomy',
         ];
 
-        return view('series.index')->with('series',$series);
+        return view('series.index')->with('series', $series);
     }
+
     public function create()
     {
-        return view ('series.create');
+        return view('series.create');
     }
 }
-
